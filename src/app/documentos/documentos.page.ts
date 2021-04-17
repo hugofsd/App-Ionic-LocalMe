@@ -9,8 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DocumentosPage implements OnInit {
 
-  private cep;
-	private endereco:any = {};
+  public cep;
+	public endereco:any = {};
 	vazio = "";
 
   constructor(
